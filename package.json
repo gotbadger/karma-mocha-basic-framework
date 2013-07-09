@@ -1,0 +1,25 @@
+{
+  "name": "karma-mocha-basic-framework",
+  "preferGlobal": false,
+  "version": "0.0.1",
+  "author": "Philip Hayton",
+  "description": "basic framework for testing with karma and mocha",
+  "contributors": [ 
+    {
+      "name": "phil hayton",
+      "email": "p.j.hayton@hotmail.com"
+    } 
+  ],
+  "scripts":{
+    "start" : "./node_modules/.bin/karma start"
+  },
+  "dependencies" : {
+    "chai":"1.7.2",
+    "karma-mocha":"0.0.3",
+    "karma-coverage":"0.0.3"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.12"
+  }
+}
