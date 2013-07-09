@@ -4,3 +4,6 @@ var fntrue = function (){
 var fnfalse = function(){
 	return false;
 }
+var fnNotTested = function(){
+	return null;
+}
